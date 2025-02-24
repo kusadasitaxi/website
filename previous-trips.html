@@ -39,6 +39,9 @@
             object-fit: cover;
             margin-top: 10px;
         }
+        .left_align {
+            text-align: left;
+        }
         @media (min-width: 768px) {
             .text-image-container {
                 flex-direction: row;
@@ -73,11 +76,24 @@
     
     <div class="text-image-container">
         <div>
-            <h1>Welcome to the Kusadasi Taxi Driver Bulent Yildiz's Home Page</h1>
+            <h1>Bulent Yildiz - Kusadasi Taxi</h1>
             <h3>Your way to reach Ephesus, Virgin Mary, Kusadasi Beaches and anywhere else!</h3>
-            <p>With 100+ happy customers served, I'm ready to help you experience the beauty and the history of Kusadasi. Contact me and take your place amongst them with a reservation using my <a href="tel: +90 544 712 2856"> phone number: +90 544 712 2856</a> or <a href="bulentyildizkusadasitaxi@gmail.com"> mail: bulentyildizkusadasitaxi@gmail.com</a></p>
+            <ul>
+                <p>With 100+ happy customers served, I'm ready to help you experience the beauty and the history of Kusadasi. Contact me and take your place amongst them with a reservation: </p>
+            </ul>
+            <div class="left_align">
+                <ul>
+                    <li>Phone: <a href="tel: +90 544 712 2856">+90 544 712 2856</a></li>
+                    <li>Email: <a href="mailto:bulentyildizkusadasitaxi@gmail.com">bulentyildizkusadasitaxi@gmail.com</a></li>
+                    <li>WhatsApp: <a href="wplinkhere">Send a message</a> </li>
+                </ul>
+         </div> 
         </div>
     </div>
+
+    <header>
+        <img src="src/Header.jpg" alt="Header Image">
+    </header>
     
     <nav>
         <ul>
@@ -88,7 +104,21 @@
 
         </ul>
     </nav>
-    
 
+    <h2>Previous Trips</h2>
+    <p>Here are the previous trips I've taken with my customers.</p>
+    <div>
+        <div>
+            <p>There are currently no logged previous trips!</p>
+        </div>
+    </div>
+
+    <h2>Contact</h2>
+    <p>For reservations and inquiries, you can contact me</p>
+        <ul>
+            <li>Phone: <a href="tel: +90 544 712 2856">+90 544 712 2856</a></li>
+            <li>Email: <a href="mailto:bulentyildizkusadasitaxi@gmail.com">bulentyildizkusadasitaxi@gmail.com</a></li>
+            <li>WhatsApp: <a href="wplinkhere">Send a message</a> </li>
+        </ul>
 </body>
 </html>

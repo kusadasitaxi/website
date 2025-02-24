@@ -39,6 +39,19 @@
             object-fit: cover;
             margin-top: 10px;
         }
+        .attraction img {
+            width: 90%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 450px;
+            height: auto;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+        .left_align {
+            text-align: left;
+        }
         @media (min-width: 768px) {
             .text-image-container {
                 flex-direction: row;
@@ -73,12 +86,25 @@
     
     <div class="text-image-container">
         <div>
-            <h1>Welcome to the Kusadasi Taxi Driver Bulent Yildiz's Home Page</h1>
+            <h1>Bulent Yildiz - Kusadasi Taxi</h1>
             <h3>Your way to reach Ephesus, Virgin Mary, Kusadasi Beaches and anywhere else!</h3>
-            <p>With 100+ happy customers served, I'm ready to help you experience the beauty and the history of Kusadasi. Contact me and take your place amongst them with a reservation using my <a href="tel: +90 544 712 2856"> phone number: +90 544 712 2856</a> or <a href="mailto: bulentyildizkusadasitaxi@gmail.com"> mail: bulentyildizkusadasitaxi@gmail.com</a></p>
-        </div> 
+            <ul>
+                <p>With 100+ happy customers served, I'm ready to help you experience the beauty and the history of Kusadasi. Contact me and take your place amongst them with a reservation: </p>
+            </ul>
+            <div class="left_align">
+                <ul>
+                    <li>Phone: <a href="tel: +90 544 712 2856">+90 544 712 2856</a></li>
+                    <li>Email: <a href="mailto:bulentyildizkusadasitaxi@gmail.com">bulentyildizkusadasitaxi@gmail.com</a></li>
+                    <li>WhatsApp: <a href="wplinkhere">Send a message</a> </li>
+                </ul>
+         </div> 
+        </div>
     </div>
     
+    <header>
+        <img src="src/Header.jpg" alt="Header Image">
+    </header>
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -89,81 +115,86 @@
         </ul>
     </nav>
 
-    <div class="container">
+    <div class="attraction">
         <div class="left">
             <h2>Here are the popular attractions of Kusadasi</h2>
-            <p>Explore the exciting attractions we have to offer:</p>
+            <p>Explore the exciting attractions Kusadasi have to offer:</p>
             <ul>
-                <li>
-                    <img src="image1.jpg" alt="Attraction 1">
-                    <h3>Attraction 1</h3>
-                    <p>Description of Attraction 1</p>
-                </li>
-                <li>
-                    <img src="image2.jpg" alt="Attraction 2">
-                    <h3>Attraction 2</h3>
-                    <p>Description of Attraction 2</p>
-                </li>
-                <li>
-                    <img src="image3.jpg" alt="Attraction 3">
-                    <h3>Attraction 3</h3>
-                    <p>Description of Attraction 3</p>
-                </li>
+                <h3>Virgin Mary</h3>
             </ul>
-        </div>
-        <div class="right">
-            <section id="previousTrips">
-                <h2>Previous Trips</h2>
-                <div class="trip">
-                    <img src="trip1.jpg" alt="Trip to the Mountains">
-                    <h3>Trip to the Mountains</h3>
-                    <p>A breathtaking journey through rugged terrains and serene landscapes.</p>
-                </div>
-                <div class="trip">
-                    <img src="trip2.jpg" alt="Beach Getaway">
-                    <h3>Beach Getaway</h3>
-                    <p>Relaxing days by the ocean with golden sunsets and soothing waves.</p>
-                </div>
-                <div class="trip">
-                    <img src="trip3.jpg" alt="City Exploration">
-                    <h3>City Exploration</h3>
-                    <p>Discovering hidden gems and vibrant culture in the heart of the city.</p>
-                </div>
-            </section>
-            <section id="comments">
-                <h2>Comments</h2>
-                <form id="commentForm" method="post" action="send_comment.php" enctype="multipart/form-data">
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" required><br>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br>
-                    <label for="comment">Comment:</label><br>
-                    <textarea id="comment" name="comment" rows="4" required></textarea><br>
-                    <label for="attachment">Image Attachment:</label><br>
-                    <input type="file" id="attachment" name="attachment" accept="image/*"><br><br>
-                    <button type="submit">Submit Comment</button>
-                </form>
-                <div id="commentList">
-                    <div class="comment">
-                        <img src="comment1.jpg" alt="Comment from Alice">
-                        <strong>Alice</strong>
-                        <p>This trip was amazing! The scenery was breathtaking and the experience unforgettable.</p>
-                    </div>
-                    <div class="comment">
-                        <img src="comment2.jpg" alt="Comment from Bob">
-                        <strong>Bob</strong>
-                        <p>I enjoyed every moment of the journey. The service was exceptional and the trip well organized.</p>
-                    </div>
-                    <div class="comment">
-                        <img src="comment3.jpg" alt="Comment from Carol">
-                        <strong>Carol</strong>
-                        <p>Looking forward to my next adventure! A truly memorable experience with great company.</p>
-                    </div>
-                </div>
-            </section>
+            <img src="src/Virgin_Mary.jpg" alt="Virgin Mary">
+            <ul>
+                <ul>
+                    
+                    <li>The House of the Virgin Mary is a Catholic shrine located on Mount Bülbül, near the ancient city of Ephesus.</li>
+                    <li>To reach this sacred site, visitors pass by the upper gate of Ephesus and continue about 7 km up the mountain.</li>
+                    <li>The house was discovered in the 19th century following the recorded visions of a Catholic nun, Anne Catherine Emmerich (1774–1824).</li>
+                    <li>This holy place has been honored by visits from various popes and has received the Patriarchal Blessing. The first pilgrimage was made in 1896 by Pope Leo XIII, and most recently, in 2014, Pope Francis visited the site.</li>
+                    <li>Outside the House of the Virgin Mary, there is a "wishing wall" where visitors tie pieces of paper or fabric with their personal prayers and intentions.</li>
+                    <li>There is also a spring that some believe has extraordinary healing and fertility-enhancing properties.</li>
+                    <li>It is thought that Mary’s tomb may also be located on Mount Bülbül.</li>
+                    
+                </ul>
+            </ul>
+            <ul>
+                <h3>Ephesus</h3>
+            </ul>
+            <img src="src/Ephesus.jpg" alt="Ephesus">
+            <ul>
+                <ul>
+                    <li>The ancient city of Ephesus is located just 3 km from the Selçuk district in İzmir, Turkey.</li>
+                    <li>As one of the most significant port cities in history, Ephesus has a rich past dating back to 6000 BCE.</li>
+                    <li>The first archaeological excavations in Ephesus began in 1869, led by J.T. Wood on behalf of the British Museum. Since 1954, the Ephesus Museum, under the Turkish Ministry of Culture and Tourism, has been overseeing ongoing excavations, restoration, and preservation efforts.</li>
+                    <li>Ephesus is renowned for being home to the Temple of Artemis, one of the Seven Wonders of the Ancient World. Additionally, its recognition as a UNESCO World Heritage Site highlights its cultural and historical significance.</li>
+                    <li>As visitors explore Ephesus, they embark on a journey through time, wandering among structures that beautifully reflect the architectural and artistic sensibilities of the ancient world.</li>
+                    <li>Every year, travelers from across the globe flock to Ephesus to immerse themselves in its fascinating history and walk in the footsteps of the past.</li>
+                </ul>
+            </ul>
+            <ul>
+                <h3>Artemis Temple</h3>
+            </ul>
+            <img src="src/Artemis_Temple.jpg" alt="Artemis Temple">
+            <ul>
+                <ul>
+                    <li>The Temple of Artemis, also known as the Temple of Diana, is located along the Selçuk-Kuşadası road, just 400 meters from Selçuk.</li>
+                    <li>Dedicated to the goddess Artemis, the temple was completed in Ephesus around 550 BCE.</li>
+                    <li>Recognized as one of the Seven Wonders of the Ancient World, the temple was entirely constructed from marble. However, today, only a few marble fragments remain as a testament to its former grandeur.</li>
+                </ul>
+            </ul>
+            <ul>
+                <h3>Şirince</h3>
+            </ul>
+            <img src="src/Sirince.jpg" alt="Sirince">
+            <ul>
+                <ul>
+                    <li>Şirince is often described as a perfect blend of a traditional Turkish village and a historic Greek settlement.</li>
+                    <li>The village was once called Çirkince, meaning "ugly," reportedly to deter outsiders from settling there. However, recognizing its beauty and rich architectural heritage, the village was renamed Şirince (meaning "charming") in 1926.</li>
+                    <li>Within the village, there are two historic Greek churches that stand as reminders of its multicultural past.</li>
+                    <li>Şirince gained global attention in 2012 when a group calling themselves the "Blue Energy Group" spread the belief that, according to the Mayan calendar, the world would end on December 21, 2012—except for two places: Şirince in Turkey and Bugarach in France. This led to a surge of visitors hoping to witness the phenomenon.</li>
+                    <li>Known for its winemaking tradition, Şirince is famous for its fruit wines. In addition to vineyards and olive groves, the village also cultivates peaches, figs, apples, and walnuts, contributing to its agricultural charm.</li>
+                </ul>
+            </ul>
+    </div>
+
+    <h2><a href="previous-trips.html">Previous Trips</a></h2>
+    <p>Here are some of the previous trips I've taken with my customers.</p>
+    <div>
+        <div>
+            <p>There are currently no logged previous trips!</p>
         </div>
     </div>
 
-    <footer>
-        <!-- Your footer content here -->
-    </footer>
+    <h2>Comments</h2>
+    <p>Have you recently explored Kusadasi with me? Feel free to leave a comment <a href="https://docs.google.com/forms/d/e/1FAIpQLScZhzx64UCOO1gv-cRVXqK8VcdrZFoOMnrou10yyNeU7gxxiA/viewform?usp=header">here</a>:</p>
+    <p>There are no comments yet!</p>
+
+    <h2>Contact</h2>
+    <p>For reservations and inquiries, you can contact me</p>
+        <ul>
+            <li>Phone: <a href="tel: +90 544 712 2856">+90 544 712 2856</a></li>
+            <li>Email: <a href="mailto:bulentyildizkusadasitaxi@gmail.com">bulentyildizkusadasitaxi@gmail.com</a></li>
+            <li>WhatsApp: <a href="wplinkhere">Send a message</a> </li>
+        </ul>
+</body>
+</html>
+    
