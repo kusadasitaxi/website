@@ -39,6 +39,16 @@
             object-fit: cover;
             margin-top: 10px;
         }
+        .only-img-centered img {
+            width: 90%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 450px;
+            height: auto;
+            object-fit: cover;
+            margin-top: 10px;
+        }
         @media (min-width: 768px) {
             .text-image-container {
                 flex-direction: row;
@@ -106,11 +116,17 @@
     
     <h2><a href="about-me.html">About Me</a></h2>
     <p>Hi! I'm Bulent Yildiz, I'm a taxi driver in Kusadasi and I enjoy taking travellers to the best attractions using my comfortable 7-seater vehicle with A/C.</p>
-    <img src="src/Car_Photo.jpg" alt="About Us Image">
+    <div class="only-img-centered">
+        <img src="src/Car_Photo.jpg" alt="About Us Image">
+    </div>
+    
     
     <h2><a href="attractions.html">Attractions</a></h2>
     <p>There are numerous attractions to be found in Kusadasi. From the historic ruins of Ephesus, where you can enjoy the beauty and enrichen your knowledge, to the warm and bright feelings of Şirince, where you can sample the local wine while exploring and admiring the small town, Kusadasi offers travellers unique experiences to be found. With years of experience, I'm ready to take you to each of them so that you can focus on having fun. To learn more about the attractions and their travel times, you can click on the title above the text.</p>
-    <img src="path/to/attractions-image.jpg" alt="Attractions Image">
+    <div class="only-img-centered">
+        <img src="src/Attrc.jpeg" alt="Attractions Image">
+    </div>
+        
 
     <h2><a href="previous-trips.html">Previous Trips</a></h2>
     <p>Here are some of the previous trips I've taken with my customers.</p>
